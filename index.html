@@ -10,6 +10,19 @@
     <iframe src="6500_6hbk10_doc.pdf" width = "100%" height="500px">
       <p> Your browser does not support PDFs. <a href="6500_6hbk10_doc.pdf"> Download the PDF</a>.</p>
     </iframe>
+      <br>
+      <input type="checkbox" id="confirmRead" onclick="toggleButon()">
+      <label for="confirmRead"> I confirm I have read the terms and conditions. </label>
+      <br>
+      <button id="proceedButton" disabled> Proceed</button>
+
+    <script>
+      function togglebutton() {
+        var checkbox =  document.getElementById('conformRead');
+        var button - document.getElementById('proceedButton');
+        button.disabled = !checkbox.checked;
+      }
+    </script>
     
   </body>
 
